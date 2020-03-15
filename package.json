@@ -20,22 +20,22 @@
     "http-proxy-middleware": "^1.0.2",
     "keycode": "^2.2.0",
     "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-responsive-carousel": "^3.1.51",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },
-  "homepage": "https://tammyproject2.herokuapp.com/",
+  "homepage": "https://tammyproject2.herokuapp.com",
   "heroku-run-build-script": true,
   "scripts": {
-      "start": "NODE_ENV=production node express.js",
-      "build": "react-scripts build",
-      "client": "react-scripts start",
-      "server": "nodemon express.js",
-      "dev": "NODE_ENV=dev concurrently --kill-others-on-fail \"npm run server \" \"npm run client\" "
+    "start": "NODE_ENV=production node express.js",
+    "build": "react-scripts build",
+    "client": "react-scripts start",
+    "server": "nodemon express.js",
+    "dev": "NODE_ENV=dev concurrently --kill-others-on-fail \"npm run server \" \"npm run client\" "
   },
-
   "eslintConfig": {
     "extends": "react-app"
   },
