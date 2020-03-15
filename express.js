@@ -28,7 +28,7 @@ app.use((request, response, next) => {
 | Route Collections
 ---------------------------*/
 const routes = require('./express-routes/index.js');
-app.use('/api/staff', routes.staff);
+app.use('/api/staff', routes.staff); 
 app.use('/api/services', routes.services);
 app.use('/api/slides', routes.slides);
 app.use('/api/email', routes.email);
